@@ -297,7 +297,7 @@ const App: React.FC = () => {
               Contents
             </h4>
             <ul className="space-y-1 relative border-l border-gray-200 dark:border-gray-700 ml-1.5">
-              {NAV_ITEMS.map((item, index) => {
+              {NAV_ITEMS.map((item) => {
                 const isActive = activeSection === item.id;
                 return (
                   <li key={item.id} className="relative">
@@ -467,7 +467,7 @@ const App: React.FC = () => {
                        <img 
                          src={item.imageUrl} 
                          alt={item.caption} 
-                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                         className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                        />
                     </div>
                     <div className="mt-2 text-xs text-gray-500 dark:text-gray-400 italic font-medium">

@@ -3,13 +3,13 @@ import type { Experience, NavItem, Project, GalleryItem, Education, BlogPost, Sk
 export const PROFILE = {
   name: "Lokesh Bhagadkar",
   role: "Full Stack Engineer",
-  location: "San Francisco, CA",
-  email: "hello@johndoe.dev",
+  location: "Maharashtra, IN",
+  email: "bhag.loki@gmail.com",
   about: `I am a passionate software engineer with a focus on building scalable web applications. 
   Like a well-maintained encyclopedia, I believe in structured, clean, and accessible code. 
   I enjoy turning complex problems into simple, beautiful, and intuitive designs.`,
-  image: "https://picsum.photos/400/400", // Placeholder
-  whatsappNumber: "1234567890" // Add real number without +
+  image: "/images/lokesh.jpg", // Placeholder
+  whatsappNumber: "924479312" // Add real number without +
 };
 
 export const NAV_ITEMS: NavItem[] = [
@@ -121,22 +121,22 @@ export const SKILLS: SkillCategory[] = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: "g1",
-    imageUrl: "https://picsum.photos/600/400?random=10",
+    imageUrl: "/images/submission.jpg",
     caption: "Working on the new server architecture diagram."
   },
   {
     id: "g2",
-    imageUrl: "https://picsum.photos/600/400?random=11",
+    imageUrl: "/images/lokesh.jpg",
     caption: "Team offsite in the mountains (2023)."
   },
   {
     id: "g3",
-    imageUrl: "https://picsum.photos/600/400?random=12",
+    imageUrl: "/images/submission.jpg",
     caption: "Speaking at ReactConf regarding performance optimizations."
   },
   {
     id: "g4",
-    imageUrl: "https://picsum.photos/600/400?random=13",
+    imageUrl: "/images/lokesh.jpg",
     caption: "My minimalist home office setup."
   }
 ];
